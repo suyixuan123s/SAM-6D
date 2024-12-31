@@ -1,0 +1,72 @@
+# Ubuntu 系统文件
+*~
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+.DS_Store
+
+# Python 编译文件
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 虚拟环境
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python 分发和打包文件
+build/
+dist/
+*.egg-info/
+
+# PyCharm / IntelliJ IDEA 配置文件
+.idea/
+
+# VSCode 配置文件
+.vscode/
+
+# 操作系统的日志文件
+*.log
+*.out
+*.err
+
+# pytest 缓存文件
+.pytest_cache/
+
+# Python 静态类型检查
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Docker 相关文件
+docker-compose.override.yml
+Dockerfile
+*.docker
+
+# Sentry 配置文件
+.sentry/
+
+# 环境配置文件
+*.env
+*.env.*
+
+
+# 下载的权重文件
+*.pth
+*.pt
+*.pth.tar.gz
+*.pth.tar.bz2
+*.pth.tar.xz
+
+# 其他文件
+.htaccess
+.htpasswd   # .gitignore 忽略了，但是还是建议不要上传到 Git 仓库
